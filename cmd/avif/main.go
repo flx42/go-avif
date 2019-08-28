@@ -72,6 +72,7 @@ func main() {
 		conf.Speed = 8
 	}
 	avifOpts := avif.Options{
+		Threads: 1,
 		Speed:   conf.Speed,
 		Quality: conf.Quality,
 	}
